@@ -1,0 +1,9 @@
+# 提交前检查流程
+# 1. TypeScript 类型检查（检查所有文件）
+yarn type-check
+
+# 2. 运行单元测试（不生成覆盖率报告，提升速度）
+yarn test
+
+# 3. 代码质量和格式检查（只检查暂存区文件，性能优化）
+npx lint-staged

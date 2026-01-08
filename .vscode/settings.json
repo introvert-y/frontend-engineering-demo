@@ -1,0 +1,35 @@
+{
+  // 保存时自动格式化
+  "editor.formatOnSave": false,
+
+  // 设置默认格式化工具为 Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 保存时自动执行代码修复（ESLint）
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // 针对不同文件类型的格式化设置
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ESLint 配置
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue"],
+
+  // Vue 相关配置
+  "volar.takeOverMode.enabled": false
+}

@@ -1,0 +1,13 @@
+# 构建产物
+dist
+dist-ssr
+
+# 依赖
+node_modules
+
+# 测试覆盖率
+coverage
+
+# 其他
+*.local
+.DS_Store
